@@ -1,0 +1,48 @@
+# Build outputs
+*.o
+*.d
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.htm
+*.dep
+*.crf
+*.dpd
+*.fed
+*.iex
+*.lin
+*.lst
+*.lnp
+*.build_log.htm
+
+# IDE files
+.vscode/
+.idea/
+*.launch
+*.project
+*.cproject
+.settings/
+
+# Temporary files
+*.txt
+!README.md
+*.bak
+*.tmp
+*~
+
+# STM32 specific
+Debug/
+Release/
+Listings/
+Objects/
+UI.uvprojx.uvprojx.state
+UI.uvoptx
+*.uvguix.*
+
+# OS files
+desktop.ini
+Thumbs.db
+.DS_Store
